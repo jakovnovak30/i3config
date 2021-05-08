@@ -187,8 +187,11 @@ client.urgent $urgent-bg-color $urgent-bg-color $text-color #000
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+
 bar {
 	position top
+	tray_output primary
+	tray_padding 1
 	status_command i3blocks -c /home/jakov/.config/i3/i3blocks/i3blocks.conf
 	colors{
 		background #5E1202
