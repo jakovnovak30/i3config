@@ -223,6 +223,8 @@ bindsym $mod+z exec --no-startup-id sh /home/jakov/.config/i3/lock.sh &
  
 exec --no-startup-id nitrogen --set-zoom-fill  /home/jakov/.config/i3/pozadina.jpg &
 
+exec --no-startup-id compton
+
 assign [class="Chromium"] $ws1
 assign [class="Alacritty"] $ws2
 assign [class="discord"] $ws3
