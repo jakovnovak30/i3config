@@ -201,7 +201,7 @@ bar {
 
 # to add gaps
 for_window [class=".*"] border pixel 5
-border_radius 10
+border_radius 4
 gaps outer 10 
 gaps inner 20
 
