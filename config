@@ -226,7 +226,7 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Screen lock
-bindsym $mod+z exec sh /home/jakov/.config/i3/lock.sh lock.jpg
+bindsym $mod+z exec sh /home/jakov/.config/i3/lock.sh
  
 exec --no-startup-id nitrogen --set-zoom-fill  /home/jakov/.config/i3/pozadina.jpg &
 
