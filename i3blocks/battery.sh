@@ -2,13 +2,13 @@
 
 BAT=$(acpi -b | grep -E -o '[0-9]*%')
 
-PUNI_SE=$(acpi | grep -o 'Charging')
+NEPUNI_SE=$(acpi | grep -o 'Discharging')
 
-if [ -z $PUNI_SE ]
+if [ -z $NEPUNI_SE ]
 	then
-		echo " $BAT"
-	else
 		echo " $BAT"
+	else
+		echo " $BAT"
 fi
 
 # Set urgent flag below 5% or use orange below 20%
