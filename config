@@ -204,8 +204,8 @@ for_window [class=".*"] border pixel 5
 border_radius 4
 gaps outer 10 
 gaps inner 20
-smart_gaps on
-smart_borders on
+smart_gaps inverse_outer
+smart_borders on 
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+
