@@ -19,7 +19,7 @@ inputbar {
 prompt {
 	padding: 16px;
 	border: 0 1px 0 0;
-	text-color: #dc322f;
+	text-color: #1793d0;
 }
 
 textbox {
