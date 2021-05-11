@@ -234,5 +234,6 @@ assign [class="Alacritty"] $ws2
 assign [class="discord"] $ws3
 assign [class="zoom"] $ws3
 assign [class="vlc"] $ws5
+assign [class="kdenlive"] $ws5
 assign [class="qBittorrent"] $ws4
 assign [class="Rhythmbox"] $ws10
