@@ -38,7 +38,7 @@ bindsym $mod+Return exec --no-startup-id alacritty
 bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -theme /home/jakov/.config/i3/rofi_tema2.rasi -show drun -show-icons -display-drun "Search "
+bindsym $mod+d exec rofi -theme /home/jakov/.config/i3/rofi_tema2.rasi -show drun -display-drun "Search "
 
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
