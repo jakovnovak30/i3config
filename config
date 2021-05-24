@@ -243,5 +243,5 @@ for_window [class="Pavucontrol"] floating enable
 for_window [class="Nvidia-settings"] floating enable
 
 #startup shit
-exec chromium
-exec alacritty
+exec --no-startup-id chromium
+exec --no-startup-id alacritty
