@@ -211,13 +211,13 @@ smart_gaps on
 smart_borders on
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+ && dunstify "zvuk++"
-bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%- && dunstify "zvuk--"
-bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle && dunstify "mute"
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+ && dunstify "" -r 69
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%- && dunstify "" -r 69
+bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle && dunstify "" -r 69
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 && dunstify "svjetlina+"
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 && dunstify "svjetlina-"
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 && dunstify "" -r 70
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 && dunstify "" -r 70
 
 # Media player controls
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause && dunstify "play-pause"
