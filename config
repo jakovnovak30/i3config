@@ -243,6 +243,7 @@ assign [class="Rhythmbox"] $ws10
 #assigning floating windows
 for_window [class="Pavucontrol"] floating enable
 for_window [class="Nvidia-settings"] floating enable
+for_window [class="qBittorrent"] floating enable
 
 #startup shit
 exec --no-startup-id chromium
