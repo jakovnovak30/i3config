@@ -205,7 +205,6 @@ bar {
 # to add gaps
 for_window [class=".*"] border pixel 0
 border_radius 4
-gaps outer 10 
 gaps inner 15
 smart_gaps on 
 smart_borders on
